@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
 import { BRAND, DEFAULT_DESCRIPTION, DEFAULT_TITLE, SITE_URL } from "@/lib/config/site";
+// @ts-expect-error Next.js handles CSS side-effect imports.
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
