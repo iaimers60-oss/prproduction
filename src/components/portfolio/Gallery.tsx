@@ -20,7 +20,7 @@ export function Gallery({ images, title }: { images: LightboxImage[]; title: str
               aria-label={`Open image ${i + 1} of ${images.length} from ${title} in full screen`}
               className={`group relative block w-full overflow-hidden bg-charcoal ${ASPECTS[i % ASPECTS.length]}`}
             >
-              <span className="absolute inset-0 block transition-transform duration-[1.2s] ease-[var(--ease-cinematic)] group-hover:scale-[1.03]">
+              <span className="absolute inset-0 block transition-transform duration-[1.2s] ease-cinematic group-hover:scale-[1.03]">
                 <SmartImageClient src={img.url} alt={img.alt} />
               </span>
             </button>
