@@ -55,7 +55,7 @@ export function Header({ logoUrl, whatsappUrl }: Props) {
           ? "border-b border-white/5 bg-ink py-3"
           : scrolled
             ? "border-b border-white/5 bg-ink/90 py-3 backdrop-blur-md"
-            : "bg-gradient-to-b from-ink/70 to-transparent py-5",
+            : "bg-linear-to-b from-ink/70 to-transparent py-5",
       )}
     >
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-gold focus:px-4 focus:py-2 focus:text-ink">
