@@ -18,7 +18,7 @@ export function ProjectCard({ project, aspect = "aspect-[4/5]", sizes = "(min-wi
     <article className={cn("group", className)}>
       <Link href={`/portfolio/${project.slug}`} className="block" aria-label={`View project: ${project.title}`}>
         <div className={cn("relative overflow-hidden bg-charcoal", aspect)}>
-          <div className="absolute inset-0 transition-transform duration-[1.4s] ease-[var(--ease-cinematic)] group-hover:scale-[1.04]">
+          <div className="absolute inset-0 transition-transform duration-[1.4s] ease-cinematic group-hover:scale-[1.04]">
             <SmartImage src={project.cover_image_url} alt={`${project.title}${project.location ? `, ${project.location}` : ""}`} sizes={sizes} priority={priority} placeholderLabel={project.category?.name ?? project.title} width={1200} />
           </div>
           <div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/10 to-transparent opacity-80 transition-opacity duration-700 group-hover:opacity-95" />
