@@ -14,7 +14,7 @@ export function Hero({ imageUrl, videoUrl, regions }: Props) {
   const poster = toDisplayImageUrl(imageUrl, 2400) ?? undefined;
   const hasMedia = Boolean(imageUrl || videoUrl);
   return (
-    <section className="relative flex min-h-[100svh] items-end overflow-hidden bg-ink" aria-label="Introduction">
+    <section className="relative flex min-h-svh items-end overflow-hidden bg-ink" aria-label="Introduction">
       <div className="absolute inset-0">
         {videoUrl ? (
           <video
