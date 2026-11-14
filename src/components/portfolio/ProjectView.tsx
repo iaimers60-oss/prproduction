@@ -32,7 +32,7 @@ export function ProjectView({ project, related, settings }: Props) {
       <header className="relative flex min-h-[78svh] items-end overflow-hidden">
         <div className="absolute inset-0">
           <SmartImage src={project.cover_image_url} alt={project.title} priority sizes="100vw" placeholderLabel={project.category?.name ?? project.title} width={2400} />
-          <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-ink/30" />
+          <div className="absolute inset-0 bg-linear-to-t from-ink via-ink/40 to-ink/30" />
         </div>
         <div className="container-x relative pb-16 pt-40">
           <Link href="/portfolio" className="mb-10 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-ivory/80 hover:text-gold">
