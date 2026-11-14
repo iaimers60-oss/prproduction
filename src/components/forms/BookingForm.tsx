@@ -162,7 +162,7 @@ export function BookingForm({ whatsappNumber, budgetRanges, initialEventType, co
   return (
     <form onSubmit={onSubmit} noValidate className="space-y-8" aria-describedby={formError ? "form-error" : undefined}>
       {/* Honeypot: hidden from people, often filled by bots */}
-      <div aria-hidden className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+      <div aria-hidden className="absolute left-[-9999px] h-0 w-0 overflow-hidden">
         <label htmlFor="company">Company</label>
         <input ref={honeypot} id="company" name="company" type="text" tabIndex={-1} autoComplete="off" />
       </div>
