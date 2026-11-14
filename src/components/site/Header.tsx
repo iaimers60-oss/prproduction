@@ -119,7 +119,7 @@ export function Header({ logoUrl, whatsappUrl }: Props) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.35 }}
-            className="fixed inset-0 -z-10 overflow-y-auto bg-ink pt-[68px] lg:hidden"
+            className="fixed inset-0 -z-10 overflow-y-auto bg-ink pt-17 lg:hidden"
           >
             <nav aria-label="Mobile" className="container-x flex min-h-full flex-col py-10">
               <ul className="space-y-1">
