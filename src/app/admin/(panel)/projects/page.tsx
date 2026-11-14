@@ -52,7 +52,7 @@ export default async function AdminProjects({ searchParams }: Props) {
             </thead>
             <tbody className="divide-y divide-white/5">
               {projects.map((p, i) => (
-                <tr key={p.id} className="hover:bg-white/[0.02]">
+                <tr key={p.id} className="hover:bg-white/2">
                   <td className="px-4 py-3">
                     <div className="flex items-center gap-3">
                       <span className="relative h-12 w-16 shrink-0 overflow-hidden bg-charcoal"><SmartImage src={p.cover_image_url} alt="" sizes="64px" width={200} placeholderLabel="" /></span>
