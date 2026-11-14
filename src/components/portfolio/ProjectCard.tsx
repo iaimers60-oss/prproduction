@@ -21,7 +21,7 @@ export function ProjectCard({ project, aspect = "aspect-[4/5]", sizes = "(min-wi
           <div className="absolute inset-0 transition-transform duration-[1.4s] ease-cinematic group-hover:scale-[1.04]">
             <SmartImage src={project.cover_image_url} alt={`${project.title}${project.location ? `, ${project.location}` : ""}`} sizes={sizes} priority={priority} placeholderLabel={project.category?.name ?? project.title} width={1200} />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/10 to-transparent opacity-80 transition-opacity duration-700 group-hover:opacity-95" />
+          <div className="absolute inset-0 bg-linear-to-t from-ink/85 via-ink/10 to-transparent opacity-80 transition-opacity duration-700 group-hover:opacity-95" />
           <div className="absolute left-4 top-4 flex flex-wrap gap-2">
             {project.is_sample && (
               <span className="bg-ink/80 px-2.5 py-1 text-[0.6rem] font-semibold uppercase tracking-[0.2em] text-gold ring-1 ring-gold/40">Sample</span>
