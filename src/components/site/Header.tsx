@@ -49,7 +49,7 @@ export function Header({ logoUrl, whatsappUrl }: Props) {
   return (
     <header
       className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-all duration-700 ease-[var(--ease-cinematic)]",
+        "fixed inset-x-0 top-0 z-50 transition-all duration-700 ease-cinematic",
         // No backdrop-filter while the menu is open: it would trap the fixed overlay inside the header.
         open
           ? "border-b border-white/5 bg-ink py-3"
