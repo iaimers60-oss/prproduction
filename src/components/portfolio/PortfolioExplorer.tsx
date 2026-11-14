@@ -76,7 +76,7 @@ export function PortfolioExplorer({ projects, categories }: Props) {
           </button>
         </div>
       ) : (
-        <div className="mt-10 columns-1 gap-5 sm:columns-2 lg:columns-3 *:mb-5 [&>*]:break-inside-avoid">
+        <div className="mt-10 columns-1 gap-5 sm:columns-2 lg:columns-3 *:mb-5 *:break-inside-avoid">
           {shown.map((p, i) => (
             <ProjectCard key={p.id} project={p} aspect={ASPECTS[i % ASPECTS.length]} priority={i < 3} />
           ))}
