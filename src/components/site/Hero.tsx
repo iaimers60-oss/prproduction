@@ -40,8 +40,8 @@ export function Hero({ imageUrl, videoUrl, regions }: Props) {
             <div className="absolute inset-x-0 top-[22%] h-px bg-linear-to-r from-transparent via-gold/15 to-transparent" />
           </div>
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-ink/30" />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink/70 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-ink via-ink/40 to-ink/30" />
+        <div className="absolute inset-0 bg-linear-to-r from-ink/70 via-transparent to-transparent" />
       </div>
 
       <div className="container-x relative pb-24 pt-40 sm:pb-28">
