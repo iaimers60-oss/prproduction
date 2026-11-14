@@ -189,7 +189,7 @@ export function BookingForm({ whatsappNumber, budgetRanges, initialEventType, co
           </select>
         </Field>
         <Field id="event_date" label="Event Date, if known" error={errors.event_date} hint="Leave empty if not decided yet.">
-          <input {...fieldProps("event_date", errors.event_date, "x")} value={values.event_date} onChange={set("event_date")} type="date" className="field [color-scheme:dark]" />
+          <input {...fieldProps("event_date", errors.event_date, "x")} value={values.event_date} onChange={set("event_date")} type="date" className="field scheme-dark" />
         </Field>
         <Field id="event_city" label="Event City" required error={errors.event_city}>
           <input {...fieldProps("event_city", errors.event_city)} value={values.event_city} onChange={set("event_city")} autoComplete="address-level2" required />
