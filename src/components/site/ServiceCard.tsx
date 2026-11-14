@@ -13,8 +13,8 @@ interface Props {
 export function ServiceCard({ service, index, image }: Props) {
   return (
     <article id={service.slug} className="group flex h-full scroll-mt-28 flex-col border border-white/[0.07] bg-charcoal/60 transition-colors duration-500 hover:border-gold/30">
-      <div className="relative aspect-[4/3] overflow-hidden">
-        <div className="absolute inset-0 transition-transform duration-[1.4s] ease-[var(--ease-cinematic)] group-hover:scale-[1.04]">
+      <div className="relative aspect-4/3 overflow-hidden">
+        <div className="absolute inset-0 transition-transform duration-[1.4s] ease-cinematic group-hover:scale-[1.04]">
           <SmartImage src={image} alt={service.name} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" placeholderLabel={service.name} width={1000} />
         </div>
         <span className="absolute left-5 top-4 font-serif text-sm italic text-gold">{String(index + 1).padStart(2, "0")}</span>
