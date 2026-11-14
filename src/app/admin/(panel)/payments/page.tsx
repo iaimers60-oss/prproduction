@@ -44,7 +44,7 @@ export default async function PaymentsPage({ searchParams }: Props) {
         <p className="border border-dashed border-white/15 p-12 text-center text-mist">No payment records yet.</p>
       ) : (
         <div className="overflow-x-auto border border-white/10">
-          <table className="w-full min-w-[860px] text-left text-sm">
+          <table className="w-full min-w-215 text-left text-sm">
             <thead className="bg-charcoal text-xs uppercase tracking-[0.15em] text-mist">
               <tr>
                 <th scope="col" className="px-4 py-3">Reference</th>
