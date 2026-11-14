@@ -68,7 +68,7 @@ export function VideoEmbed({ url, title, poster, label }: Props) {
     <button type="button" onClick={() => setPlaying(true)} className="group relative block aspect-video w-full overflow-hidden bg-charcoal" aria-label={`Play film: ${title}`}>
       {posterUrl ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={posterUrl} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.4s] ease-[var(--ease-cinematic)] group-hover:scale-105" />
+        <img src={posterUrl} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.4s] ease-cinematic group-hover:scale-105" />
       ) : (
         <Placeholder label={title} compact />
       )}
