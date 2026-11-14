@@ -24,7 +24,7 @@ export function Placeholder({ label, className, compact = false }: { label?: str
     <div
       role="img"
       aria-label={`Placeholder${label ? ` for ${label}` : ""}. Real photograph to be added.`}
-      className={cn("grain absolute inset-0 overflow-hidden bg-gradient-to-br", tone, className)}
+      className={cn("grain absolute inset-0 overflow-hidden bg-linear-to-br", tone, className)}
     >
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_20%,rgba(197,165,114,0.16),transparent_60%)]" />
       <div className="absolute inset-3 border border-gold/15 sm:inset-4" />
