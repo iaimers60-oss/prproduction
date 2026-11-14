@@ -9,7 +9,7 @@ export function Logo({ logoUrl, onClick }: { logoUrl?: string | null; onClick?: 
     <Link href="/" onClick={onClick} className="group flex items-center gap-3" aria-label={`${BRAND} — home`}>
       {src ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={src} alt={BRAND} className="h-10 w-auto max-w-[180px] object-contain" />
+        <img src={src} alt={BRAND} className="h-10 w-auto max-w-45 object-contain" />
       ) : (
         <>
           <span className="flex h-10 w-10 items-center justify-center border border-gold/60 font-serif text-lg tracking-wider text-gold transition-colors duration-500 group-hover:bg-gold group-hover:text-ink">
