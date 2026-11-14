@@ -36,7 +36,7 @@ export function Hero({ imageUrl, videoUrl, regions }: Props) {
         ) : null}
         {!hasMedia && (
           <div aria-hidden className="grain absolute inset-0 bg-[radial-gradient(ellipse_at_70%_30%,rgba(197,165,114,0.22),transparent_55%),radial-gradient(ellipse_at_10%_90%,rgba(197,165,114,0.08),transparent_50%),linear-gradient(160deg,#17130f,#080808_60%)]">
-            <div className="absolute inset-y-0 right-[8%] hidden w-px bg-gradient-to-b from-transparent via-gold/25 to-transparent lg:block" />
+            <div className="absolute inset-y-0 right-[8%] hidden w-px bg-linear-to-b from-transparent via-gold/25 to-transparent lg:block" />
             <div className="absolute inset-x-0 top-[22%] h-px bg-gradient-to-r from-transparent via-gold/15 to-transparent" />
           </div>
         )}
