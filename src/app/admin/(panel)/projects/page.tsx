@@ -39,7 +39,7 @@ export default async function AdminProjects({ searchParams }: Props) {
         </div>
       ) : (
         <div className="overflow-x-auto border border-white/10">
-          <table className="w-full min-w-[760px] text-left text-sm">
+          <table className="w-full min-w-190 text-left text-sm">
             <thead className="bg-charcoal text-xs uppercase tracking-[0.15em] text-mist">
               <tr>
                 <th scope="col" className="px-4 py-3">Project</th>
