@@ -16,7 +16,7 @@ test("normalizes Indian WhatsApp numbers", () => {
 
 test("builds encoded wa.me URLs and refuses missing numbers", () => {
   const url = buildWhatsAppUrl("9876543210", "Hello PR Production! Wedding & films?");
-  assert.equal(url, "https://wa.me/919876543210?text=Hello%20PR%20Production!%20Wedding%20%26%20films%3F");
+  assert.equal(url, "https://wa.me/918459034951?text=Hello%20PR%20Production!%20Wedding%20%26%20films%3F");
   assert.equal(buildWhatsAppUrl(null, "hi"), null);
 });
 
