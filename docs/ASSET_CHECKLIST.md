@@ -5,6 +5,9 @@ the related section or shows a clearly labelled placeholder.
 
 ## Brand
 - [ ] Logo — transparent PNG or SVG-exported PNG, at least 600 px wide (Admin → Settings → Logo)
++
+- [ ] Logo — transparent PNG or SVG-exported PNG, at least 600 px wide (Admin → Settings → Logo)
+- [ ] Logo — transparent PNG or SVG-exported PNG, at least 600 px wide (Admin → Settings → Logo)
 - [ ] Confirm tagline, brand statement, and location statement (Admin → Settings → Brand)
 
 ## Contact details (all optional, all hidden until added)
